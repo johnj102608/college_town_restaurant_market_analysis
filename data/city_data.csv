@@ -1,0 +1,11 @@
+input_city,state_usps,gazetteer_name,acs_name,geoid,population,land_area_sq_miles,population_density_per_sq_mile
+Davis,CA,Davis city,"Davis city, California",0618100,67203,9.972,6739.169675090253
+Champaign,IL,Champaign city,"Champaign city, Illinois",1712385,88628,22.99,3855.06742061766
+West Lafayette,IN,West Lafayette city,"West Lafayette city, Indiana",1882862,44861,13.559,3308.577328711557
+Ann Arbor,MI,Ann Arbor city,"Ann Arbor city, Michigan",2603000,122216,28.224,4330.2154195011335
+Chapel Hill,NC,Chapel Hill town,"Chapel Hill town, North Carolina",3711800,58919,21.596,2728.236710501945
+Princeton,NJ,Princeton,"Princeton, New Jersey",3460900,30450,17.946,1696.7569374791037
+Pittsburgh,PA,Pittsburgh city,"Pittsburgh city, Pennsylvania",4261000,303843,55.375,5487.006772009029
+College Station,TX,College Station city,"College Station city, Texas",4815976,120451,51.16,2354.3979671618454
+Bellingham,WA,Bellingham city,"Bellingham city, Washington",5305280,91353,28.198,3239.697850911412
+Madison,WI,Madison city,"Madison city, Wisconsin",5548000,268516,81.743,3284.880662564379
