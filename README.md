@@ -121,7 +121,6 @@ Resulting types:
 - Sparse and Dominated  
 - Sparse and Fragmented  
 
-This adds nuance to entry risk assessment.
 
 ---
 
@@ -141,7 +140,7 @@ Digital presence acts as a competitive enhancer, not a primary structural determ
 3. Competitive Environment Profile – Competitive battlefield analysis  
 
 Tableau Public Link:  
-[Insert Link Here]
+[]
 
 ---
 
