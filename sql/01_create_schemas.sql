@@ -1,0 +1,8 @@
+CREATE SCHEMA stg;
+GO
+
+CREATE SCHEMA core;
+GO
+
+CREATE SCHEMA mart;
+GO
