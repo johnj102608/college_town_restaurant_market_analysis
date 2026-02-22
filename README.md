@@ -21,7 +21,7 @@ The objective is to move beyond surface metrics (e.g., population size) and eval
 
 - Where demand meaningfully exceeds competitive saturation  
 - How concentrated or fragmented the competitive landscape is  
-- What structural risks a new entrant would face  
+- What structural risks would a new entrant face  
 
 ---
 
@@ -103,7 +103,7 @@ Cities are segmented using:
 | Low Demand / Low Saturation | Niche Opportunity |
 | Low Demand / High Saturation | Structurally Challenging |
 
-This reframes the evaluation from descriptive metrics to decision-oriented strategy.
+This reframes the evaluation from descriptive metrics to a decision-oriented strategy.
 
 ---
 
@@ -140,16 +140,7 @@ Digital presence acts as a competitive enhancer, not a primary structural determ
 3. Competitive Environment Profile – Competitive battlefield analysis  
 
 Tableau Public Link:  
-[]
-
----
-
-## Tech Stack
-
-- Python  
-- SQL Server  
-- Tableau Public  
-- GitHub  
+https://public.tableau.com/views/college-town-restaurant-market-analysis/QuadrantDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ---
 
@@ -173,12 +164,3 @@ college-town-restaurant-market-analysis/
 - Executive-level communication clarity  
 
 This project builds a defensible market entry evaluation framework grounded in economic structure rather than surface-level correlation analysis.
-
----
-
-## Potential Extensions
-
-- Composite market attractiveness score  
-- Entry sensitivity analysis  
-- Revenue potential modeling  
-- Expansion to additional metropolitan tiers  
