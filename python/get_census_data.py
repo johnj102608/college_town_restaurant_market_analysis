@@ -1,4 +1,5 @@
-API_KEY = "d297a883e5e05a052eb0ec579235a7e6e30003d8"
+API_KEY = ""
+# API_KEY removed for Github purpose
 
 import requests
 import pandas as pd
@@ -153,5 +154,6 @@ print(out)
 
 # output to csv
 out.to_csv("city_data.csv", index=False)
+
 
 
