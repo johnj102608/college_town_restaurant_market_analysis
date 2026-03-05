@@ -144,14 +144,18 @@ https://public.tableau.com/views/college-town-restaurant-market-analysis/Quadran
 
 ---
 
-## Repository Structure
+## Project Structure
+
+```
 college-town-restaurant-market-analysis/
 │
-├── python/
-├── sql/
-├── data/
-├── tableau/
-└── README.md
+├── python/     # Data collection, cleaning, and analysis scripts
+├── sql/        # SQL schema, transformations, and queries
+├── data/       # Raw and processed datasets
+├── tableau/    # Tableau workbook and dashboard files
+│
+└── README.md   # Project documentation
+```
 
 ---
 
