@@ -85,8 +85,6 @@ def main():
     print("Saved combined -> " + out_path)
 
 
-
-
 '''
     print("Missing names:", df["name"].isna().mean())
     print("Missing opening_hours:", df["opening_hours"].isna().mean())

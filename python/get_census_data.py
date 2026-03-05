@@ -1,5 +1,4 @@
-API_KEY = ""
-# API_KEY removed for Github purpose
+API_KEY = "d297a883e5e05a052eb0ec579235a7e6e30003d8"
 
 import requests
 import pandas as pd
@@ -8,9 +7,8 @@ import zipfile
 import difflib
 import re
 
-# ==========================
+
 # CONFIG
-# ==========================
 YEAR = "2022"  # use the same year for ACS and Gazetteer
 
 TARGETS = [
@@ -26,9 +24,7 @@ TARGETS = [
     ("Chapel Hill", "NC")
 ]
 
-# ==========================
-# HELPERS
-# ==========================
+
 def normalize_place_name(s: str) -> str:
     """Normalize to compare user input with Gazetteer NAME."""
     s = s.lower().strip()
@@ -85,7 +81,6 @@ def find_place_row(gaz_df: pd.DataFrame, city: str, usps: str) -> pd.Series:
     choices = subset["NAME_norm"].tolist()
     best = difflib.get_close_matches(want, choices, n=1, cutoff=0.75)
     if not best:
-        # helpful debug: show a few close-ish candidates
         near = difflib.get_close_matches(want, choices, n=5, cutoff=0.6)
         raise ValueError(
             f"Could not confidently match '{city}, {usps}'. "
@@ -114,9 +109,6 @@ def get_acs_population(year: str, state_fips: str, place_fips: str, api_key: str
         "population": int(row["B01003_001E"]),
     }
 
-# ==========================
-# MAIN
-# ==========================
 gaz_df = load_gazetteer_places(YEAR)
 
 rows = []
@@ -136,7 +128,7 @@ for city, usps in TARGETS:
         "input_city": city,
         "state_usps": usps,
 
-        # "actual names in the data"
+        # actual names in the data
         "gazetteer_name": place_row["NAME"],     # e.g., "Champaign city"
         "acs_name": acs["acs_name"],             # e.g., "Champaign city, Illinois"
 
@@ -154,6 +146,5 @@ print(out)
 
 # output to csv
 out.to_csv("city_data.csv", index=False)
-
 
 
