@@ -147,7 +147,7 @@ https://public.tableau.com/views/college-town-restaurant-market-analysis/Quadran
 ## Project Structure
 
 ```
-college-town-restaurant-market-analysis/
+college_town_restaurant_market_analysis/
 │
 ├── python/     # Data collection, cleaning, and analysis scripts
 ├── sql/        # SQL schema, transformations, and queries
