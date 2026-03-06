@@ -1,4 +1,4 @@
-# College Town Restaurant Market Entry Analysis  
+# College Town Restaurant Market Analysis  
 Evaluating Structural Attractiveness of U.S. College Towns for New Restaurant Entry
 
 ---
